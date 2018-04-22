@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("Helvetica.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Helvetica;
+    font-weight: bold;
+    src: url("Helvetica-Bold.otf") format("opentype");
+}
+body{
+	font-family: Helvetica;
+}
+.cover--1{
+	
+	margin-left: 120px;
+	margin-top: 48px;
+	overflow-x: hidden;
+}
+.cover--1--image1{
+	width: 39px;
+	height: 28px;
+
+}
+.cover--1--image2{
+	margin-top: 190px;
+}
+.cover--1--main{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.48;
+  letter-spacing: -0.6px;
+  color: #363636;
+  margin-top:18px;
+}
+.container{
+	margin: 0;
+	padding:0;
+	margin-top: 50px;
+}
+.a--2{
+	margin:120px; 
+	height: 144px;
+	border: 1.5px solid #d8d8d8; 
+}
+.a--3{
+	width: 40%;
+    height: 141px;
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+.a--4{
+	height: 144px;
+    width: 60%;
+    float: right;
+}
+.a--5{
+	margin:80px; 
+	height: 84px;
+	border: 1.5px solid #d8d8d8; 
+}
+.a--6{
+	width: 40%;
+    height: 84px;
+    float: left;
+    
+}
+.a--7{
+	height: 82px;
+    width: 60%;
+    float: right;
+    background-color: #d8d8d8;
+}
+.screenselect{
+	opacity: 0.7;
+}
+
+.acti{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+.hero{
+	height: 100%;
+	background-image: url('img/Back Photo.jpg');
+	background-size: cover;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*border: 1px solid #e7e7e7;*/
+    /*background-color: #f3f3f3;*/
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.displayno{
+	display: none;
+}
+.ismobile{
+	display: block;
+}
+.isdesktop{
+	display: none;
+}
+.istv{
+	display: none;
+}
