@@ -12,7 +12,7 @@ body{
 	font-family: Helvetica;
 }
 .cover--1{
-	
+
 	margin-left: 120px;
 	margin-top: 48px;
 	overflow-x: hidden;
@@ -39,9 +39,9 @@ body{
 	margin-top: 50px;
 }
 .a--2{
-	margin:120px; 
+	margin:120px;
 	height: 144px;
-	border: 1.5px solid #d8d8d8; 
+	border: 1.5px solid #d8d8d8;
 }
 .a--3{
 	width: 40%;
@@ -55,15 +55,15 @@ body{
     float: right;
 }
 .a--5{
-	margin:80px; 
+	margin:80px;
 	height: 84px;
-	border: 1.5px solid #d8d8d8; 
+	border: 1.5px solid #d8d8d8;
 }
 .a--6{
 	width: 40%;
     height: 84px;
     float: left;
-    
+
 }
 .a--7{
 	height: 82px;
@@ -85,19 +85,18 @@ body{
 
 
 
-.hero{
+/* .hero{
 	height: 100%;
 	background-image: url('img/Back Photo.jpg');
 	background-size: cover;
+} */
 
-}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*border: 1px solid #e7e7e7;*/
-    /*background-color: #f3f3f3;*/
+    border-bottom: 1px solid #e7e7e7;
 }
 
 li {
@@ -107,7 +106,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #373737;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -125,4 +124,8 @@ li a {
 }
 .istv{
 	display: none;
+}
+
+.ismumbai{
+  display: none;
 }
