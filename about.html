@@ -12,13 +12,21 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript">
+	function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+	</script>
 </head>
 <body>
-	<div class="hero">
+	<div class="hero" style="height: 100%;
+	background-image: url('img/Back Photo.jpg');
+	background-size: cover;">
 		<div class="row" style="margin-left: 120px;margin-right: 120px;padding-top:5px;border-bottom: 1px solid white">
 			<div>
-				<ul>
-				  <li style="float: left;"><a href="#" style="text-decoration: none;"><span><img src="img/skip arrow.png" style="transform: rotate(90deg) scale(0.8);margin-right: 24px; "></span>BACK TO HOME</a></li>
+				<ul style="border-bottom: 1px solid #e7e7e7;">
+				  <li style="float: left;"><a href="index1.html" style="text-decoration: none;"><span><img src="img/skip arrow.png" style="transform: rotate(90deg) scale(0.8);margin-right: 24px; "></span>BACK TO HOME</a></li>
 				  <li><a href="#news" style="text-decoration: none;">DESIGN GALLERY</a></li>
 				  <li><a href="#contact" style="text-decoration: none;">JOURNEY</a></li>
 				  <li><a href="#about" style="text-decoration: none;">OVERVIEW</a></li>
@@ -94,7 +102,7 @@
 
 		</div>
 	</div>
-	<hr style="margin-right: 120px;margin-left: 120px;border-top: 1px solid #d8d8d8">
+	<hr style="margin-right: 120px;margin-left: 120px;border-top: 1px solid #d8d8d8;">
 	<div class="row" style="margin-right: 120px;margin-left: 120px;margin-top: 117px;">
 		<div class="col-md-7" style="font-size: 17px;line-height: 1.88;color: #363636;">
 			<p>As our work, our food, our homes and our transportation become increasingly governed by algorithms, their behaviours also become more opaque, unpredictible and complex.</p>
@@ -173,11 +181,11 @@
 	<div class="a--5">
 			<div class="a--6" style="width: 65%;background-color: #d8d8d8;position: relative;top: -2px;">
 
-				<div style="margin-top: 32px;margin-left: 50px;font-size: 18px;line-height: 1.17;color: #363636;"><span style="cursor: pointer;"><img src="img/Back to home orange.svg" style="margin-right: 50px;"></span>Click here to go back to <span style="font-weight: bold;">'Home'</span>Page</div>
+				<a href="index1.html"><div style="margin-top: 32px;margin-left: 50px;font-size: 18px;line-height: 1.17;color: #363636;"><span style="cursor: pointer;"><img src="img/Back to home orange.svg" style="margin-right: 50px;"></span>Click here to go back to <span style="font-weight: bold;">'Home'</span>Page</div></a>
 			</div>
 			<div class="a--7" style="width: 35%;background-color: white;position: relative;top: -1px;">
 
-				<div style="margin-top: 32px;margin-left: 50px;font-size: 18px;line-height: 1.17;color: #363636;">Back to top<span style="cursor: pointer;"><img src="img/skip arrow.png" style="margin-left: 160px;"></span></div>
+				<div onclick="topFunction()" style="margin-top: 32px;margin-left: 50px;font-size: 18px;line-height: 1.17;color: #363636;">Back to top<span style="cursor: pointer;"><img src="img/skip arrow.png" style="margin-left: 160px;transform: rotate(180deg);"></span></div>
 
 			</div>
 		</div>
@@ -185,28 +193,14 @@
 		<hr style="margin-left: 80px;margin-right: 80px;border: 1px solid #d8d8d8;opacity: 0.4;">
 	</div>
 
-	<div class="row" style="margin-left: 120px;margin-right: 120px">
-		<div class="container">
-			<div class="col-md-3">
-				<div style=" font-size: 17px; line-height: 1.53;color: #363636;margin-top: 80px;">aviralbohra96@gmail.com</div>
-				<div style="font-size: 17px; line-height: 1.53;color: #363636;">+91-8394883255</div>
-			</div>
-			<div class="col-md-6 col-md-push-3">
-				<div style="font-size: 14px;font-weight: bold;line-height: 1.86;letter-spacing: 0.4px;color: #363636;">GET IN TOUCH</div>
-				<div style="opacity: 0.3;font-size: 18px;line-height: 1.5;color: #737373;">Feel free to contact if there is anything you need to talk about.</div>
-				<form style="width: 100%;border:2px solid #d8d8d8;margin-top: 10px; ">
-					<div >
-						<input type="text" name="email" placeholder="Email" style="width: 100%;padding: 10px;border:none;border-bottom: 0.5px solid #d8d8d8">
-					</div>
-					<div>
-						<textarea placeholder="Message" name="message" style="width: 100%;padding: 10px;border:none;" ></textarea>
-					</div>
-					<button type="submit" class="btn btn-default" style="width: 100%;height: 45px;background-color: #d8d8d8;border:none;border-radius: 0;font-weight: bold;">SEND MESSAGE</button>
-				</form>
-			</div>
+	<div class="row" style="margin-right: 120px;margin-left: 120px;margin-top: 139px;"> 
+		<div class="col-md-6" style="padding: 0;">
+			<div style="font-size: 24px;font-weight: bold;line-height: 2.17;color: #363636;">Thank you for coming this far.</div>
+			<div style="font-size: 22px;line-height: 1.86;color: #363636;">To review an in-depth selection of my work, my resume,or to discuss working together, feel free to contact.</div>
+			<div style="margin-top: 61px;font-size: 21px;line-height: 1.24;color: #363636;">aviralbohra96@gmail.com</div>
+			<div style="margin-top: 20px;font-size: 21px;line-height: 1.24;color: #363636;">+91-8394883255</div>
+			<div style="margin-top: 60px;font-size: 17px;opacity: 0.4; line-height: 1.53;color: #363636;">Thanks to Rohit and Aayush for development support</div>
 		</div>
 	</div>
-	<div style="margin-left:120px;position: relative;top: -23px; font-size: 17px;opacity: 0.4; line-height: 1.53;color: #363636;">Thanks to Rohit and Aayush for development support</div>
-	<div style="margin-top: 120px;"></div>
 </body>
 </html>

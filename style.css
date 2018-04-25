@@ -83,20 +83,16 @@ body{
 
 
 
-
-
-/* .hero{
-	height: 100%;
-	background-image: url('img/Back Photo.jpg');
-	background-size: cover;
-} */
+a:hover{
+	text-decoration: none;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border-bottom: 1px solid #e7e7e7;
+    
 }
 
 li {
@@ -106,13 +102,18 @@ li {
 
 li a {
     display: block;
-    color: #373737;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 
 }
-
+.slick-prev:before {
+  color: #363636;
+}
+.slick-next:before {
+  color: #363636;
+}
 .displayno{
 	display: none;
 }

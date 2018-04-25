@@ -68,30 +68,44 @@ $('#smart').click(function() {
 
 });
 
+
+
 $('#mum').click(function() {
 
     	$('.ismumbai').css("display","block");
-   	$('.isdesktop').css("display","none");
-   		$('.ismobile').css("display","none");
-      $('.istv').css("display", "none");
- $('.istv').slick({
-    centerMode: false,
-  slidesToShow: 1,
-  dots: true,
-  infinite: false,
-  speed: 300,
-  arrows: true,
-            prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-            nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
-
+   	$('.isbengaluru').css("display","none");
+   		$('.iskolkata').css("display","none");
+      $('.isdelhi').css("display", "none");
   });
+  $('#beng').click(function() {
 
+    	$('.isbengaluru').css("display","block");
+   	$('.ismumbai').css("display","none");
+   		$('.iskolkata').css("display","none");
+      $('.isdelhi').css("display", "none");
+  });
+  $('#kol').click(function() {
 
-});
+    	$('.iskolkata').css("display","block");
+   	$('.isbengaluru').css("display","none");
+   		$('.ismumbai').css("display","none");
+      $('.isdelhi').css("display", "none");
+  });
+  $('#del').click(function() {
 
-
-
-
+    	$('.isdelhi').css("display","block");
+   	$('.isbengaluru').css("display","none");
+   		$('.iskolkata').css("display","none");
+      $('.ismumbai').css("display", "none");
+  });
  $("#mobi").click();
-
+ $('#beng').click();
 });
+
+
+
+
+
+
+
+
